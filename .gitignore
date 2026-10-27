@@ -31,3 +31,14 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Azure Functions runtime and local state
+.azure/
+bin/
+local.settings.json
+vendor/
+*.log
+__azurite_db*__.json
+__blobstorage__/
+__queuestorage__/
+.env.*
