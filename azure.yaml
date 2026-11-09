@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+name: functions-quickstart-go-azd-cosmosdb
+metadata:
+  template: functions-quickstart-go-azd-cosmosdb@1.0.0
+services:
+  api:
+    project: .
+    language: go
+    host: function
