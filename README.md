@@ -17,8 +17,8 @@ urlFragment: functions-quickstart-go-azd-cosmosdb
 # Azure Functions Go Cosmos DB Change Feed Trigger
 
 This sample follows the [Go timer quickstart](https://github.com/Azure-Samples/functions-quickstart-go-azd-timer)
-and deploys to Linux Flex Consumption with `azd`. Go worker packages are preview
-packages. The `processChanges` function receives batches of inserts and updates
+and deploys to Linux Flex Consumption with `azd` using Go worker v1.0.0 (GA).
+The `processChanges` function receives batches of inserts and updates
 from `ToDoList/Items` and logs each task:
 
 ```json

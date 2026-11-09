@@ -5,7 +5,7 @@ go 1.25.0
 require (
 	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.13.1
 	github.com/Azure/azure-sdk-for-go/sdk/data/azcosmos v1.5.0
-	github.com/azure/azure-functions-golang-worker v0.7.0-preview
+	github.com/azure/azure-functions-golang-worker v1.0.0
 )
 
 require (
