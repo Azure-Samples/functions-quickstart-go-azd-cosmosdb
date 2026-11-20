@@ -1,0 +1,10 @@
+# This descriptor drives template package creation in the packaging pipeline.
+schemaVersion: 1
+identity: Azure.Functions.Templates.CosmosDbGo
+description: Create a Go Azure Functions app for Cosmos DB Trigger, with Bicep infrastructure for deployment using azd.
+projects:
+- name: Azure Functions Cosmos DB Trigger (Go)
+  shortName: functions-quickstart-go-cosmosdb
+  root: .
+  stack: go
+  language: Go
